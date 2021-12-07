@@ -22,7 +22,7 @@
 <meta property="og:title" content="404 Page not found" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://latlong.io/404.html" />
+<meta property="og:url" content="/404.html" />
 
 
 
@@ -33,7 +33,7 @@
   "@graph": [
     {
       "@type":"Person",
-      "@id": "https://latlong.io/#author",
+      "@id": "#author",
       "name":  null ,
       "image": {
         "@type":"ImageObject",
@@ -44,25 +44,25 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://latlong.io/#website",
-      "url": "https://latlong.io/",
+      "@id": "#website",
+      "url": "",
       "name": "My New Hugo Site",
       "description":  null ,
       "publisher": {
-        "@id": "https://latlong.io/#author"
+        "@id": "#author"
       },
       "inLanguage": "en-us"
     },
     {
       "@type": "WebPage",
-      "@id": "https://latlong.io/404.html#webpage",
-      "url": "https://latlong.io/404.html",
+      "@id": "/404.html#webpage",
+      "url": "/404.html",
       "name": "404 Page not found",
       "isPartOf": {
-        "@id": "https://latlong.io/#website"
+        "@id": "#website"
       },
       "about": {
-         "@id": "https://latlong.io/#author"
+         "@id": "#author"
       },
       "description": ,
       "inLanguage": "en-us",
@@ -70,7 +70,7 @@
         {
           "@type": "ReadAction",
           "target": [
-            "https://latlong.io/404.html"
+            "/404.html"
           ]
         }
       ]
@@ -131,7 +131,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://latlong.io/">Home</a>
+          <a href="">Home</a>
         </li>
         
       </ul>
@@ -148,7 +148,7 @@
   <h1>Page not found</h1>
 <p class="lead">
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <a href="https://latlong.io/">Head back home</a> to try finding it again.
+    <a href="">Head back home</a> to try finding it again.
 </p>
   </main>
 
