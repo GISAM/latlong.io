@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gisam.github.io/latlong.io/categories/</loc>
-  </url><url>
     <loc>https://gisam.github.io/latlong.io/</loc>
+    <lastmod>2021-12-07T22:57:33+00:00</lastmod>
+  </url><url>
+    <loc>https://gisam.github.io/latlong.io/post/myfirstpost/</loc>
+    <lastmod>2021-12-07T22:57:33+00:00</lastmod>
+  </url><url>
+    <loc>https://gisam.github.io/latlong.io/post/</loc>
+    <lastmod>2021-12-07T22:57:33+00:00</lastmod>
+  </url><url>
+    <loc>https://gisam.github.io/latlong.io/categories/</loc>
   </url><url>
     <loc>https://gisam.github.io/latlong.io/tags/</loc>
   </url>
