@@ -13,7 +13,7 @@
       <pubDate>Tue, 07 Dec 2021 22:57:33 +0000</pubDate>
       
       <guid>https://gisam.github.io/latlong.io/post/myfirstpost/</guid>
-      <description>This first example was created with the ESRI javascript API, using a dataset hosted on rushmoors AGOL cloud server:
+      <description>This first example was created with the ESRI javascript API, using a dataset hosted on Rushmoors AGOL cloud server:
  #viewDiv { padding: 10; margin: 10; height: 450px; width: 750px; }       This second map was created by using the ESRI web app builder. It has an option to &#39;embed in website&#39; which will generate html without any effort :
  The code generated from the embed in website option is as follows:</description>
     </item>
