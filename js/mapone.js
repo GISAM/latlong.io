@@ -17,13 +17,22 @@ require([
   const view = new MapView({
     container: "viewDiv",
     map: map,
-    center: [-118.80543,34.02700],
-    zoom: 13
+    center: [-0.754057,51.287855],
+    zoom: 14
   });
+
+
+// Define a pop-up for Trailheads
+    const popupTrailheads = {
+      "title": "Listed Buildings (National Designations)",
+      "content": "<b>Address:</b> {ADDRESS}<br><b>Grade:</b> {LISBGDE}"
+      }
 
 //Trailheads feature layer (points)
   const trailheadsLayer = new FeatureLayer({
-    url: "https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trailheads/FeatureServer/0/"
+    url: "https://services7.arcgis.com/QVClNghUhmgiDmtr/arcgis/rest/services/Listed_Buildings_(National_Designations)/FeatureServer/0/",
+    outFields: ["ADDRESS","LISBGDE"],
+    popupTemplate: popupTrailheads
   });
 
   map.add(trailheadsLayer);
